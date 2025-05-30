@@ -1,9 +1,6 @@
-
 import streamlit as st
 from openai import OpenAI
-import os
 from dotenv import load_dotenv
-import time
 import random
 
 # Load environment variables
