@@ -7,7 +7,7 @@ from typing import Optional
 # OpenAI and Gemini client setup
 openai_client = OpenAI()
 client = OpenAI(
-    api_key="AIzaSyDBEA4bQ3msKjWp1cHgQdiOslWp8PeJFkg",  # Caution: Keep keys secret in real code
+    api_key="GEMINI_API_KEY",  # Caution: Keep keys secret in real code
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
